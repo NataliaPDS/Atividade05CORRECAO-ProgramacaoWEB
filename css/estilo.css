@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(196, 220, 253);
+}
+#centro{
+    background-color: white;
+    width: 45%;
+    height: auto;
+
+    margin: auto; /*centralizado*/
+    margin-top: 70px;
+    display: flex;
+
+    border-radius: 10px;
+}
+#ladoE{
+    background-image: url(../img/bg-sidebar-desktop.svg); /*..voltar pasta anterior*/
+
+    /*background-size: 100% 100%; /*definir tamanho da imagem*/
+    background-repeat: no-repeat; /*nao repetir imagem*/
+    background-position: center;
+    
+    
+    width:80%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+#ladoD{
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 20px;
+}
+
+#ladoD input[type = text],input[type = email], input[type = tel]
+{
+    width: 100%;
+
+    padding-left: 10px;
+    padding-top: 10px;
+
+    border-color: 1px solid aliceblue ;
+   border-radius: 10px; /*arredonda*/
+   margin-bottom: 20px; /*espaço entre os botões*/
+}
+#ladoD input[type = submit]{
+    margin-top: 35px; /*distancia do botao*/
+    background-color: rgb(0, 25, 79);
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+.titulo{
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color:black
+}
+.subtitulo{
+    margin-top: 0px;
+    font-size: 0.96em;
+    color: #c0c0c0
+}
+.step{
+    color: #C0C0C0;
+    font-size: 0.7em;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 5px;
+
+}
+
+.info{
+    color:white;
+    font-size: 0.9em;
+    margin-top: 0px;
+}
+#ladoE ul{
+    list-style: none; /*tirar ponto da lista*/
+}
+#ladoE ul li{
+  
+}
+.circulo{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    align-items: center; /*alinhar*/
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
