@@ -15,7 +15,7 @@ body{
 #ladoE{
     background-image: url(../img/bg-sidebar-desktop.svg); /*..voltar pasta anterior*/
 
-    /*background-size: 100% 100%; /*definir tamanho da imagem*/
+    background-size: 100% 100%; /*definir tamanho da imagem*/
     background-repeat: no-repeat; /*nao repetir imagem*/
     background-position: center;
     
@@ -26,11 +26,13 @@ body{
     margin-left: 20px;
     margin-top: 20px;
    
+   
 }
 #ladoD{
    margin-left: 50px;
    margin-right: 50px;
    margin-bottom: 20px;
+   border-radius: 5px;
 }
 
 #ladoD input[type = text],input[type = email], input[type = tel]
@@ -73,7 +75,7 @@ body{
     margin-top: 0px;
     padding-bottom: 0px;
     margin-left: 5px;
-
+    margin-top: 0px;
 }
 
 .info{
@@ -85,7 +87,7 @@ body{
     list-style: none; /*tirar ponto da lista*/
 }
 #ladoE ul li{
-  
+    display: flex;
 }
 .circulo{
     display: flex;
